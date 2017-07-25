@@ -154,15 +154,15 @@ public:
         vSeeds.push_back(CDNSSeedData("drz-seed69.chainworksindustries.com", "drz-seed69.chainworksindustries.com"));
         vSeeds.push_back(CDNSSeedData("drz-seed70.chainworksindustries.com", "drz-seed70.chainworksindustries.com"));	    
         
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(3);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
-        base58Prefixes[SECRET_KEY] =     list_of(153);
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(3);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(85);
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(153);
+        base58Prefixes[EXT_PUBLIC_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x88), std::vector<unsigned char>(0xB2), std::vector<unsigned char>(0x1E) );
+        base58Prefixes[EXT_SECRET_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x88), std::vector<unsigned char>(0xAD), std::vector<unsigned char>(0xE4) );
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-		nLastPOWBlock = 23825;
+        nLastPOWBlock = 23825;
         nPOSStartBlock = 1;
     }
 
@@ -208,16 +208,16 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(97);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
-        base58Prefixes[SECRET_KEY]     = list_of(239);
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x35)(0x87)(0xCF);
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x35)(0x83)(0x94);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(97);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(196);
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(239);
+        base58Prefixes[EXT_PUBLIC_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x35), std::vector<unsigned char>(0x87), std::vector<unsigned char>(0xCF) );
+        base58Prefixes[EXT_SECRET_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x35), std::vector<unsigned char>(0x83), std::vector<unsigned char>(0x94) );
 
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 		
-		nLastPOWBlock = 0x7fffffff;
+        nLastPOWBlock = 0x7fffffff;
     }
     virtual Network NetworkID() const { return CChainParams::TESTNET; }
 };
