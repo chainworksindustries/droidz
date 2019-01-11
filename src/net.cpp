@@ -1097,13 +1097,15 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-	{NULL, NULL}
+	{"drz-seed1.granitecoin.com", "drz-seed1.granitecoin.com"},
+	{"drz-seed2.granitecoin.com", "drz-seed2.granitecoin.com"},
+	{"drz-seed3.granitecoin.com", "drz-seed3.granitecoin.com"},
 	
-};
-
 // below are the old seed ip addresses - preserved for archival purposes ...
 //{"Droidz1", "92.233.105.4"},
 //{"Droidz2", "94.213.50.182"},
+
+};
 
 void ThreadDNSAddressSeed()
 {

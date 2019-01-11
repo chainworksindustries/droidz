@@ -83,86 +83,16 @@ public:
         assert(hashGenesisBlock == uint256("2763a81e7d1c9829c82e06789c2c0ba204182f51f29d58e58681c59151694576"));
         assert(genesis.hashMerkleRoot == uint256("f0e597ad1f9473d01d0593e00333baba4efecf24f52e219203955f8a80825f97"));
 
-        vSeeds.push_back(CDNSSeedData("drz-seed01.chainworksindustries.com", "drz-seed01.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed02.chainworksindustries.com", "drz-seed02.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed03.chainworksindustries.com", "drz-seed03.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed04.chainworksindustries.com", "drz-seed04.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed05.chainworksindustries.com", "drz-seed05.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed06.chainworksindustries.com", "drz-seed06.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed07.chainworksindustries.com", "drz-seed07.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed08.chainworksindustries.com", "drz-seed08.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed09.chainworksindustries.com", "drz-seed09.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed10.chainworksindustries.com", "drz-seed10.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed11.chainworksindustries.com", "drz-seed11.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed12.chainworksindustries.com", "drz-seed12.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed13.chainworksindustries.com", "drz-seed13.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed14.chainworksindustries.com", "drz-seed14.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed15.chainworksindustries.com", "drz-seed15.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed16.chainworksindustries.com", "drz-seed16.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed17.chainworksindustries.com", "drz-seed17.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed18.chainworksindustries.com", "drz-seed18.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed19.chainworksindustries.com", "drz-seed19.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed20.chainworksindustries.com", "drz-seed20.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed21.chainworksindustries.com", "drz-seed21.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed22.chainworksindustries.com", "drz-seed22.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed23.chainworksindustries.com", "drz-seed23.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed24.chainworksindustries.com", "drz-seed24.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed25.chainworksindustries.com", "drz-seed25.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed26.chainworksindustries.com", "drz-seed26.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed27.chainworksindustries.com", "drz-seed27.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed28.chainworksindustries.com", "drz-seed28.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed29.chainworksindustries.com", "drz-seed29.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed30.chainworksindustries.com", "drz-seed30.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed31.chainworksindustries.com", "drz-seed31.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed32.chainworksindustries.com", "drz-seed32.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed33.chainworksindustries.com", "drz-seed33.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed34.chainworksindustries.com", "drz-seed34.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed35.chainworksindustries.com", "drz-seed35.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed36.chainworksindustries.com", "drz-seed36.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed37.chainworksindustries.com", "drz-seed37.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed38.chainworksindustries.com", "drz-seed38.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed39.chainworksindustries.com", "drz-seed39.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed40.chainworksindustries.com", "drz-seed40.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed41.chainworksindustries.com", "drz-seed41.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed42.chainworksindustries.com", "drz-seed42.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed43.chainworksindustries.com", "drz-seed43.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed44.chainworksindustries.com", "drz-seed44.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed45.chainworksindustries.com", "drz-seed45.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed46.chainworksindustries.com", "drz-seed46.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed47.chainworksindustries.com", "drz-seed47.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed48.chainworksindustries.com", "drz-seed48.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed49.chainworksindustries.com", "drz-seed49.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed50.chainworksindustries.com", "drz-seed50.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed51.chainworksindustries.com", "drz-seed51.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed52.chainworksindustries.com", "drz-seed52.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed53.chainworksindustries.com", "drz-seed53.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed54.chainworksindustries.com", "drz-seed54.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed55.chainworksindustries.com", "drz-seed55.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed56.chainworksindustries.com", "drz-seed56.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed57.chainworksindustries.com", "drz-seed57.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed58.chainworksindustries.com", "drz-seed58.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed59.chainworksindustries.com", "drz-seed59.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed60.chainworksindustries.com", "drz-seed60.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed61.chainworksindustries.com", "drz-seed61.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed62.chainworksindustries.com", "drz-seed62.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed63.chainworksindustries.com", "drz-seed63.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed64.chainworksindustries.com", "drz-seed64.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed65.chainworksindustries.com", "drz-seed65.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed66.chainworksindustries.com", "drz-seed66.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed67.chainworksindustries.com", "drz-seed67.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed68.chainworksindustries.com", "drz-seed68.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed69.chainworksindustries.com", "drz-seed69.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("drz-seed70.chainworksindustries.com", "drz-seed70.chainworksindustries.com"));	    
         
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(3);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(85);
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(153);
-        base58Prefixes[EXT_PUBLIC_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x88), std::vector<unsigned char>(0xB2), std::vector<unsigned char>(0x1E) );
-        base58Prefixes[EXT_SECRET_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x88), std::vector<unsigned char>(0xAD), std::vector<unsigned char>(0xE4) );
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(3);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
+        base58Prefixes[SECRET_KEY] =     list_of(153);
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 23825;
+		nLastPOWBlock = 23825;
         nPOSStartBlock = 1;
     }
 
@@ -208,16 +138,16 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(97);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(196);
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(239);
-        base58Prefixes[EXT_PUBLIC_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x35), std::vector<unsigned char>(0x87), std::vector<unsigned char>(0xCF) );
-        base58Prefixes[EXT_SECRET_KEY] = ( std::vector<unsigned char>(0x04), std::vector<unsigned char>(0x35), std::vector<unsigned char>(0x83), std::vector<unsigned char>(0x94) );
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(97);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
+        base58Prefixes[SECRET_KEY]     = list_of(239);
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x35)(0x87)(0xCF);
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x35)(0x83)(0x94);
 
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 		
-        nLastPOWBlock = 0x7fffffff;
+		nLastPOWBlock = 0x7fffffff;
     }
     virtual Network NetworkID() const { return CChainParams::TESTNET; }
 };
