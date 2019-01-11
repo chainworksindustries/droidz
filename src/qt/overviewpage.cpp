@@ -110,7 +110,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    ui->frameDarksend->setVisible(true);  // Hide darksend features
+    ui->frameDarksend->setVisible(false);  // Hide darksend features
 
     QScroller::grabGesture(ui->scrollArea, QScroller::LeftMouseButtonGesture);
     ui->scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);

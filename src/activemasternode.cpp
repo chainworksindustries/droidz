@@ -14,9 +14,9 @@ void CActiveMasternode::ManageStatus()
 {
     std::string errorMessage;
 
-    if (fDebug) LogPrintf("CActiveMasternode::ManageStatus() - Begin\n");
-
     if(!fMasterNode) return;
+
+    if (fDebug) LogPrintf("CActiveMasternode::ManageStatus() - Begin\n");
 
     //need correct adjusted time to send ping
     bool fIsInitialDownload = IsInitialBlockDownload();
@@ -427,7 +427,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     // Filter
     BOOST_FOREACH(const COutput& out, vCoins)
     {
-        if(out.tx->vout[out.i].nValue == GetMNCollateral(pindexBest->nHeight)*COIN) { //exactly
+        if(out.tx->vout[out.i].nValue == 1000*COIN) { //exactly
         	filteredCoins.push_back(out);
         }
     }
@@ -449,7 +449,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternodeForPubKey(std::string co
     // Filter
     BOOST_FOREACH(const COutput& out, vCoins)
     {
-        if(out.tx->vout[out.i].scriptPubKey == scriptPubKey && out.tx->vout[out.i].nValue == GetMNCollateral(pindexBest->nHeight)*COIN) { //exactly
+        if(out.tx->vout[out.i].scriptPubKey == scriptPubKey && out.tx->vout[out.i].nValue == 1000*COIN) { //exactly
         	filteredCoins.push_back(out);
         }
     }

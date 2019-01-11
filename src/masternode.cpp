@@ -155,11 +155,11 @@ void ProcessMessageMasternode(CNode* pfrom, std::string& strCommand, CDataStream
 
         CValidationState state;
         CTransaction tx = CTransaction();
-        CTxOut vout = CTxOut((GetMNCollateral(pindexBest->nHeight)-1)*COIN, darkSendPool.collateralPubKey);
+        CTxOut vout = CTxOut(999*COIN, darkSendPool.collateralPubKey);
         tx.vin.push_back(vin);
         tx.vout.push_back(vout);
         //if(AcceptableInputs(mempool, state, tx)){
-	char pfMissingInputs = false;
+	bool* pfMissingInputs = false;
 	if(AcceptableInputs(mempool, tx, false, pfMissingInputs)){
             if(fDebug) LogPrintf("dsee - Accepted masternode entry %i %i\n", count, current);
 
@@ -598,12 +598,12 @@ void CMasterNode::Check()
     if(!unitTest){
         CValidationState state;
         CTransaction tx = CTransaction();
-        CTxOut vout = CTxOut((GetMNCollateral(pindexBest->nHeight)-1)*COIN, darkSendPool.collateralPubKey);
+        CTxOut vout = CTxOut(999*COIN, darkSendPool.collateralPubKey);
         tx.vin.push_back(vin);
         tx.vout.push_back(vout);
 
         //if(!AcceptableInputs(mempool, state, tx)){
-        char pfMissingInputs = false;
+        bool* pfMissingInputs = false;
 	if(!AcceptableInputs(mempool, tx, false, pfMissingInputs)){
             enabled = 3;
             return;

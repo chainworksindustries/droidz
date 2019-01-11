@@ -42,10 +42,10 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 
-unsigned int nStakeMinAge = 3 * 60 * 60; // 3 hours
+unsigned int nStakeMinAge = 10 * 60; // 3 hours
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 100;
+int nCoinbaseMaturity = 10;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 

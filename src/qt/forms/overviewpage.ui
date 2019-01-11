@@ -354,7 +354,7 @@
            <number>12</number>
           </property>
           <item row="0" column="0">
-           <widget class="QLabel" name="label_6">
+           <widget class="QLabel" name="label_61">
             <property name="text">
              <string>Status:</string>
             </property>
@@ -562,7 +562,7 @@
         <widget class="QWidget" name="widget_2" native="true">
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <layout class="QHBoxLayout" name="horizontalLayout_21">
             <item>
              <widget class="QLabel" name="label_4">
               <property name="font">
